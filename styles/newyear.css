@@ -2,7 +2,6 @@
 .banner-content {
     background-image: url('../styles/Banner\ Image.png');
     background-repeat: no-repeat;
-    /* background-position: center; */
     position: relative;
     background-size: contain;
     border-radius: 16px;
@@ -11,25 +10,18 @@
     height: 450px;
     margin: auto;
     margin-top: 100px;
-
-    /* flex-shrink: 0; */
-    /* background-size: cover; */
-    /* width: 1000px; */
-    /* padding: 200px; */
 }
 
 header .banner-content .first {
-    padding-top: 55px;
+    padding-top: 40px;
 }
 
 .banner-greeting {
     color: #FFF;
     text-align: center;
     font-family: Merriweather;
-    font-size: 40px;
+    font-size: 35px;
     font-weight: 300px;
-    /* margin-top: 30px; */
-    /* padding-top: 120px; */
 }
 
 .banner-title {
@@ -38,9 +30,6 @@ header .banner-content .first {
     font-family: Merriweather;
     font-weight: 700px;
     font-size: 70px;
-    /* margin: 0 auto; */
-    /* margin-top: 30px; */
-    /* padding-top: 70px; */
 }
 
 /* second-part */
@@ -82,7 +71,7 @@ section {
 /* 3rd-part */
 .skill {
     display: flex;
-    background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%),url('../styles/Vectorrr.png');
+    background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../styles/Vectorrr.png');
     background-size: contain;
     background-repeat: no-repeat;
     height: 450px;
@@ -104,7 +93,6 @@ section {
 
 .skill-title {
     color: #FFF;
-
     font-family: Merriweather;
     font-size: 64px;
     font-style: normal;
@@ -115,7 +103,6 @@ section {
 
 .skill-discription {
     color: rgba(255, 255, 255, 0.80);
-
     font-family: Inter;
     font-size: 18px;
     font-style: normal;
@@ -149,8 +136,6 @@ section {
 .fourth {
     width: 1000px;
     height: 450px;
-    /* flex-shrink: 0; */
-    /* background-color: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%); */
 }
 
 .fourth span {
@@ -162,7 +147,7 @@ section {
     font-weight: 600;
     line-height: 25px;
     text-transform: capitalize;
-    
+
 }
 
 .fourth .class {
@@ -196,7 +181,8 @@ section {
     text-transform: uppercase;
     margin-left: 430px;
 }
-.joinnow{
+
+.joinnow {
     width: 1000px;
     height: 450px;
     margin: auto;
@@ -205,6 +191,201 @@ section {
     background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
 
 }
-.joinnow .fourth{
+
+.joinnow .fourth {
     padding-top: 30px;
+}
+
+/* 5th-part */
+.fifth-part {
+    width: 1000px;
+    margin: 0 auto;
+    margin-top: 100px;
+
+}
+
+.gifts {
+    color: #F00;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 350;
+    line-height: normal;
+}
+
+.portfolio {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 550;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.dolor-discription {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+}
+.fifth-part-images .photo {
+    background: #FFF;
+    gap: 10px;
+}
+
+.fifth-part-images .row-one {
+    border-radius: 16px;
+    display: flex;
+gap: 10px;
+justify-content: space-between;
+}
+.fifth-part-images .row-one img{
+    width: 320px;
+}
+
+.fifth-part-images .row-two {
+    display: flex;
+    border-radius: 16px;
+    gap: 10px;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.fifth-part-images .row-two img{
+width: 320px;
+}
+
+
+/* six-part */
+.eight-part {
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    width: 1000px;
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.eight-part .news-images .group-picture{
+padding-left: 450px;
+width: 100px;
+height: 100px;
+flex-shrink: 0;
+text-align: center;
+padding-top: 100px;
+}
+
+.News-title {
+    color: #070211;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.news-discription {
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+}
+
+.email {
+    display: flex;
+    padding-left: 350px;
+    padding-bottom: 100px;
+}
+
+.eight-part .email input {
+    color: rgba(7, 2, 17, 0.30);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 200px;
+    height: 40px;
+    flex-shrink: 0;
+    border-radius: 50px 0px 0px 50px;
+
+}
+
+.eight-part .email .news-button {
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+    border-radius: 0px 50px 50px 0px;
+    background: #F00;
+    width: 100px;
+    height: 46px;
+    flex-shrink: 0;
+}
+
+/* footer-section */
+footer{
+    background: #070211;
+    height: 500px;
+}
+.footer-details {
+    display: flex;
+    justify-content: space-between;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    padding: 0px 110px;
+    padding-top: 50px;
+}
+.phone-contact {
+    color: #FFF;
+    text-decoration: none;
+}
+.footer-images-container {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    border-top: 1px solid rgba(255, 255, 255, 0.15);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+}
+.footer-images {
+    padding: 20px;
+}
+.footer-copyright {
+    display: flex;
+    justify-content: space-between;
+    color: #FFF;
+    padding-top: 40px;
+    padding-left: 110px;
+    padding-right: 110px;
+}
+.footer-copyright>p{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+}
+.footer-copyright>button{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    background-color: transparent;
+    border: none;
 }
